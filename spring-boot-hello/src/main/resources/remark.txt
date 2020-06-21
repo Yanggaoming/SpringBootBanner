@@ -1,0 +1,13 @@
+Spring boot 属于约定大于配置， 就是说spring boot 推荐不做配置，很多是默认配置，但是如果想要配置系统，使得软件符合业务定义
+springboot可以通过多种方式进行配置
+
+配置文件的三种方式：
+1：bootstrap 开头.properties后缀或者.yml 后缀，通常用于Spring Cloud 应用
+2:application 开头.properties后缀或者.yml 后缀，每个Spring boot 应用默认
+3：通过@Configuration 注解的代码类配置
+4：通过 cmd 命令行配置
+
+
+bootstrap.yml(bootstrap.properties)用来程序引导时执行，应用于更加早期配置信息读取，可以用来配置application.yml中使用到参数等
+application.yml(application.properties)应用程序特有配置信息，可以用来配置后续各个模块中需要使用的公共参数等
+bootstrap.yml先于application.yml 加载

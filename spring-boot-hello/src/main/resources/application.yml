@@ -1,0 +1,15 @@
+corn:
+  uploadPath: /Users/jiaojunkang/Documents/project_java/corn/src/corn-master/files/
+  rootPath: /Users/jiaojunkang/Documents/project_java/fwrsoft/html/
+  host: corn.icontag.cn
+  componentAppId:
+  componentSecret:
+  componentToken:
+  componentAesKey:
+  baiduApikey:
+  baiduSecretkey:
+  baiduAppId:
+  smsUrl:
+  smsUid:
+  smsPwd:
+  pageSize: 10
