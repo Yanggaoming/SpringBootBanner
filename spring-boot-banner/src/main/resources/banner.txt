@@ -1,0 +1,17 @@
+ ____  __  ____  _  _  ____  ____   __
+(  __)(  )/ ___)/ )( \(  _ \(  _ \ /  \
+ ) _)  )( \___ \) __ ( ) __/ )   /(  O )
+(__)  (__)(____/\_)(_/(__)  (__\_) \__/
+
+${AnsiColor.BRIGHT_RED}
+Application Version: ${application.version}${application.formatted-version}
+Spring Boot Version: ${spring-boot.version}${spring-boot.formatted-version}
+
+
+##参数说明：
+
+##${AnsiColor.BRIGHT_RED}：设置控制台中输出内容的颜色，可以自定义，具体参考org.springframework.boot.ansi.AnsiColor
+##${application.version}：用来获取MANIFEST.MF文件中的版本号，这就是为什么要在Application.java中指定 SpringVersion.class
+##{application.formatted-version}：格式化后的{application.version}版本信息
+##${spring-boot.version}：Spring Boot的版本号
+###{spring-boot.formatted-version}：格式化后的{spring-boot.version}版本信息
